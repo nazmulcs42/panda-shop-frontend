@@ -1,0 +1,354 @@
+body{
+    background-color: #fff;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+h3{
+    font-size: 25px;
+    margin: 30px 0px;
+}
+
+.container{
+    margin: 0 auto;
+    height: 500px;
+    max-width: 75%;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color: green;  */
+}
+
+.header{
+    margin: 10px 0px 5px 0px;
+    padding: 15px 0px;
+    min-height: 45px;
+    font-size: 14px;
+    width: 100%;
+    line-height: 45px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color: rgb(30, 30, 124);  */
+
+}
+.header img{
+    height: 40px;
+    width: 160px;
+    margin-left: -12px;
+    line-height: 40px;
+}
+
+.search-bar {
+    margin: 5px 20px 0px 25px;
+    padding: 0px;
+    height: 36px;
+    width: 455px;
+    line-height: 36px;
+    border: none;
+    border-radius: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.search-bar input[type="text"]{
+    padding: 0px 15px;
+    width: 455px;
+    height: 36px;
+    line-height: 36px;
+    border-radius: 30px;
+    font-size: 14px;
+    background-color: rgb(241, 239, 239);
+    border: none;
+    outline: none;
+}
+.search-bar input[type="text"]::placeholder{
+    font-style: italic;
+    font-size: 14px;
+}
+
+.search-bar:focus {
+    outline: none;
+    box-shadow: 2px 2px 2px rgba(112, 112, 112, 0.363);
+
+}
+
+.search-bar:hover {
+    box-shadow: 2px 2px 2px  rgba(112, 112, 112, 0.363);
+    z-index: 1;
+}
+
+.menu{
+    margin: 5px 0px 0px 0px;
+    padding: 0px;
+    height: 36px;
+    width: 360px;
+    line-height: 36px;
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color: green; */
+}
+.menu a{
+    float: right;
+    margin: 0px 0px 0px 33px;
+    font-size: 16px;
+    padding: 0px;
+    text-decoration: none;
+    /* background-color: crimson; */
+}
+.menu a:hover{
+    text-decoration: underline;
+}
+
+.card{
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    box-sizing: border-box;
+}
+.card .card_top{
+    margin: 0 auto;
+    padding: 0px;
+    min-height: 500px;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    background-color:#FEEAE9;
+    border: 2px solid #fddddc;
+    border-radius: 8px;
+    
+}
+
+
+.card .card_top .banner_left{
+    float: left;
+    margin: 120px 20px 20px 40px;
+    padding: 10px;
+    min-height: 500px;
+    width: 38%;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+
+}
+
+.card .card_top .banner_right{
+    float: right;
+    margin: 20px;
+    min-height: 500px;
+    width: 50%;
+   /*  background-color: red; */
+
+}
+.card .card_top .banner_right>img{
+    margin: 0px;
+    padding: 0px;
+    max-height:450px;
+    line-height: 450px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.button{
+    margin: 0px;
+    padding: 0px;
+    height: 30px;
+    width: 100px;
+    line-height: 30px;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+.button:hover{
+    box-shadow: 2px 2px 2px  rgba(112, 112, 112, 0.363);
+    z-index: 1;
+}
+
+.banner_button{
+    background-color: rgb(252, 17, 170);
+}
+
+
+
+.cart_button{
+    margin: 4px;
+    background-color: rgb(20, 19, 20);
+}
+
+
+.card_main{
+    margin: 0px;
+    padding: 0px;
+    height: 600px;
+    width: 100%;
+    box-sizing: border-box;
+    /* background-color: green; */
+}
+.categories{
+    margin: 25px auto;
+    padding: 0px;
+    width: 100%;
+   /*  background-color: violet; */
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.categories .items{
+    margin: 0px;
+    padding: 10px 0px;
+    width: 32%;
+    font-size: 30px;
+    color: white;
+    font-weight: 700px bold;
+    border-radius: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.categories .itm1{
+    background-color: rgb(255,156,53);
+}
+.categories .itm2{
+    background-color: rgb(255,19,111);
+}
+.categories .itm3{
+    background-color: rgb(63,7,248);
+}
+.categories>div>img{
+    margin: 0px 0px 0px 30px;
+    padding: 5px;
+    height: 95px;
+    width: 100px;
+    line-height: 95px;
+    box-sizing: border-box;
+}
+
+.categories .items:hover {
+    box-shadow: 2px 2px 2px  rgba(112, 112, 112, 0.363);
+    z-index: 1;
+}
+
+/*card_main*/
+.shoes{
+    margin: 25px auto;
+    padding: 0px;
+    width: 100%;
+    /* background-color: violet; */
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.backpack{
+    margin: 25px auto;
+    padding: 0px;
+    width: 100%;
+   /*  background-color: violet; */
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.card_item {
+    margin: 0px;
+    padding: 10px 0px;
+    height: 450px;
+    width: 32%;
+    line-height: 450px;
+    border: none;
+    border-radius: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(236, 236, 236); */
+}
+
+.card_item:hover {
+    box-shadow: 2px 2px 2px  rgba(112, 112, 112, 0.363);
+    z-index: 1;
+}
+
+.card_item>img{
+    margin: 0px;
+    padding: 0px;
+    height: 250px;
+    width: 100%;
+    /* background-color: tomato; */
+}
+
+.clearfix{
+    clear: both;
+    line-height: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.card_item .notes{
+    margin: 0px;
+    padding: 20px;
+    text-align: center;
+    min-height: 200px;
+    width: 100%;
+    box-sizing: border-box;
+    /* background-color: blue; */
+
+}
+
+
+
+
+/*card_main*/
+
+
+
+ .card_bottom{
+    margin: 750px auto 100px auto;
+    padding: 0px;
+    height: 200px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color:#FEEAE9;
+    border: 2px solid #fddddc;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+    
+}
+.card_bottom input[type="text"]{
+    margin-left: -30px;
+    padding: 0px 15px;
+    width: 250px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    background-color: white; 
+    border: none;
+    border-radius: 4px 0px 0px 4px;
+    
+}
+
+.card_bottom input[type="text"]:focus {
+    outline: none;
+    /* border: 1px solid red; */
+
+}
+.card_bottom  .footer_button{
+    margin: 0px;
+    padding: 10px;
+    width: 100px;
+    font-size: 18px;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 0px 4px 4px 0px;
+
+}
